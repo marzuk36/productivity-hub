@@ -1,0 +1,5 @@
+streamlit
+firebase-admin
+requests
+streamlit-ace
+streamlit-js-eval
