@@ -7,7 +7,7 @@ from llm_connector import stream_deepseek_response
 import json
 
 def chat_interface():
-    st.title("🤖 DeepSeek Chat")
+    st.title("🤖Fazio")
 
     # Chat mode selector
     mode = st.radio("Chat mode", ["🧠 With History", "⚡ Quick Chat (no save)"], horizontal=True)
