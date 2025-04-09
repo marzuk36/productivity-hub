@@ -28,7 +28,7 @@ page = st.sidebar.radio("Go to", ["📋 Clipboard", "🤖 Chat"])
 if st.sidebar.button("🚪 Log Out"):
     for key in ["idToken", "refreshToken", "user_email", "localId"]:
         st.session_state.pop(key, None)
-	st.session_state["logged_out"] = True  # <-- prevent auto-login
+    st.session_state["logged_out"] = True  # <-- prevent auto-login
     st.rerun()
 
 if page == "📋 Clipboard":
